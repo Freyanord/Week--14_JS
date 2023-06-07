@@ -42,3 +42,7 @@ const directors = [
     top_rated_film: 'Далласский клуб покупателей'
     },
 ];
+
+directors.forEach((item) => {
+document.querySelectorAll('director_name').innerHTML = directors[0];
+})
