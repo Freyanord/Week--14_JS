@@ -44,7 +44,7 @@ const directors = [
 ];
 
 directors.forEach((item) => {
-document.querySelectorAll('director_name').innerHTML = `p class="director_name">"${directors[0][0]}"</p>`
+document.querySelectorAll('director_name').innerHTML = `<p class="director_name">"${directors[0].name}"</p>`
 });
 
 
