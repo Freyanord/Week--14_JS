@@ -57,9 +57,16 @@ directors.forEach((director) => {
     main.append(element);
 });
 
-// directors.forEach((item) => {
-// document.querySelectorAll('.director_name').innerHTML = `<p class="director_name">"${item.name}"</p>`
-// });
+const arr = directors.map(function (item) {
+    return item = 'top_rated_film';
+});
+
+console.log(arr);
+
+// const topFilmsList = document.createElement('div');
+// topFilmsList.innerHTML = arr;
+
+
 
 
 
