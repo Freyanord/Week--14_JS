@@ -43,9 +43,23 @@ const directors = [
     },
 ];
 
-directors.forEach((item) => {
-document.querySelectorAll('.director_name').innerHTML = `<p class="director_name">"${item.name}"</p>`
+directors.forEach((director) => {
+    let card = `<section class="director_card">
+    <p class="director_name">${director.name}</p>
+    <p class="director_career">${director.career}</p>
+    <a href="${director.films}">Фильмография</a>
+    </section>`
+
+    const element = document.createElement('div');
+    element.innerHTML = card;
+
+    let main = document.querySelector('main');
+    main.append(element);
 });
+
+// directors.forEach((item) => {
+// document.querySelectorAll('.director_name').innerHTML = `<p class="director_name">"${item.name}"</p>`
+// });
 
 
 
