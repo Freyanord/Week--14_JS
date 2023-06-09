@@ -59,12 +59,15 @@ directors.forEach((director) => {
 
 const arr = directors.map(function (item) {
     return item = 'top_rated_film';
+    
+    // let arr = `<p class="top_rated_film">${top_rated_film}Лучшие фильмы режиссеров</p>`
+
+    // const topFilmsList = document.createElement('div');
+    // topFilmsList.innerHTML = arr;
+
 });
 
 console.log(arr);
-
-// const topFilmsList = document.createElement('div');
-// topFilmsList.innerHTML = arr;
 
 
 
