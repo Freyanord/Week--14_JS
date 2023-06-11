@@ -70,16 +70,6 @@ footer.append(topFilmsList);
 
 
 
-// return item = 'top_rated_film';
-
-//     let filmsList = `<p class="top_rated_film">${arr}Лучшие фильмы режиссеров</p>`;
-
-//     
-
-//     let footer = document.querySelector('footer');
-//     footer.append(topFilmsList);
-
-
 
 
 
