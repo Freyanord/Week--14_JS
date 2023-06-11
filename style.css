@@ -1,24 +1,36 @@
 .container {
-  /* display: ; */
   margin: auto;
   max-width: 50%;
   border: 3px solid gray;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+  background-image: url(img/movie.jpeg);
+  background-size: cover;
+  color: white;
 }
 
 h2 {
     text-align: center;
-    /* padding-bottom: 5px; */
-    background-color: lightcoral;
 }
 
 main {
-    background-color: lightgreen;
     padding-left: 5px;
+    padding-bottom: 5px;  
 }
 
-footer{
-    background-color: lightskyblue;
-    padding-top: 5px;
-    padding-bottom: 5px;
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+a{
+    color: whitesmoke;
+}
+
+.director_name{
+    font-weight: bold;
+}
+
+.director_career{
+    font-style: italic;
 }
