@@ -61,12 +61,12 @@ const arr = directors.map(function (item) {
     return item = 'top_rated_film';
 });
 
-console.log(arr);
+// console.log(arr);
 
-// let filmsList = `<p class="top_rated_film">${arr}Лучшие фильмы режиссеров</p>`;
+let filmsList = `<p class="top_rated_film">${arr}Лучшие фильмы режиссеров</p>`;
 
-// const topFilmsList = document.createElement('div');
-// topFilmsList.innerHTML = filmsList;
+const topFilmsList = document.createElement('div');
+topFilmsList.innerHTML = filmsList;
 
 
 
