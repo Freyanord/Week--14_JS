@@ -60,6 +60,8 @@ directors.forEach((director) => {
 const arr = directors.map(function (item) {
     return item = 'top_rated_film';
 
+// console.log(arr);
+
     let filmsList = `<p class="top_rated_film">${arr}Лучшие фильмы режиссеров</p>`;
 
     const topFilmsList = document.createElement('div');
@@ -69,7 +71,6 @@ const arr = directors.map(function (item) {
     footer.append(topFilmsList);
 });
 
-// console.log(arr);
 
 // let filmsList = `<p class="top_rated_film">${arr}Лучшие фильмы режиссеров</p>`;
 
