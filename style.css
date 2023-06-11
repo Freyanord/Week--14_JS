@@ -1,4 +1,11 @@
 .container {
-    max-width: 90%;
-    border: 1px solid black;
+  /* display:flexbox; */
+  margin: auto;
+  max-width: 50%;
+  border: 3px solid gray;
+  
+}
+
+.header {
+font-style: italic;
 }

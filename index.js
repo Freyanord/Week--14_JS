@@ -57,23 +57,27 @@ directors.forEach((director) => {
     main.append(element);
 });
 
-const arr = directors.map(function (item) {
-    return item = 'top_rated_film';
-
-    let filmsList = `<p class="top_rated_film">${arr}Лучшие фильмы режиссеров</p>`;
-
-    const topFilmsList = document.createElement('div');
-    topFilmsList.innerHTML = filmsList;
-
-    let footer = document.querySelector('footer');
-    footer.append(topFilmsList);
+const filmsList = [];
+directors.map(function (item) {
+    filmsList.push(item.top_rated_film);
 });
-// console.log(arr);
 
-// let filmsList = `<p class="top_rated_film">${arr}Лучшие фильмы режиссеров</p>`;
+const topFilmsList = document.createElement('div');
+topFilmsList.innerHTML = filmsList.join(', ');
 
-// const topFilmsList = document.createElement('div');
-// topFilmsList.innerHTML = filmsList;
+let footer = document.querySelector('footer');
+footer.append(topFilmsList);
+
+
+
+// return item = 'top_rated_film';
+
+//     let filmsList = `<p class="top_rated_film">${arr}Лучшие фильмы режиссеров</p>`;
+
+//     
+
+//     let footer = document.querySelector('footer');
+//     footer.append(topFilmsList);
 
 
 
